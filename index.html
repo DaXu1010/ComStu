@@ -11,28 +11,86 @@
     <title>Document</title>
 </head>
 <body>
-<p>ICIC</p>
-<!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
+  <nav class="navbar">
+    <a href="#" class="logo">ICIC</a>
+    <ul class="nav-links">
+      <li><a href="#download">Download</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#design-thinking">Design Thinking</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  
+  <section id="download" class="carousel">
+    <div class="slides">
+      <div class="slide">
+        <h2>Page 1</h2>
+        <p>Content for page 1 goes here.</p>
+      </div>
+      <div class="slide">
+        <h2>Page 2</h2>
+        <p>Content for page 2 goes here.</p>
+      </div>
+      <div class="slide">
+        <h2>Page 3</h2>
+        <p>Content for page 3 goes here.</p>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+  
+
+<!-- <div class="swiper">
+    
     <div class="swiper-wrapper">
-      <!-- Slides -->
+      
       <div class="swiper-slide">Slide 1</div>
       <div class="swiper-slide">Slide 2</div>
       <div class="swiper-slide">Slide 3</div>
     </div>
-    <!-- If we need pagination -->
+    
     <div class="swiper-pagination"></div>
   
-    <!-- If we need navigation buttons -->
+    
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   
-    <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
-</div>  
+</div>   -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  
+<script> 
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script> -->
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  
+
 
 </html>
