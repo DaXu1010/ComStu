@@ -24,6 +24,10 @@
 
     <!-- fullPage.js JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+    <!-- 翻页 -->
+    <link rel="stylesheet" type="text/css" href="fullpage.min.css" />
+    <script type="text/javascript" src="fullpage.min.js"></script>
     
 
     <title>Document</title>
@@ -34,10 +38,11 @@
   <nav class="navbar">
     <a href="#" class="logo">ICIC</a>
     <ul class="nav-links">
-      <li><a href="#download">Download</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#design-thinking">Design Thinking</a></li>
-      <li><a href="#contact-us">Contact Us</a></li>
+      <li><a href="#section1">Download</a></li>
+      <li><a href="#section2">Features</a></li>
+      <li><a href="#section3">Design Thinking</a></li>
+      <li><a href="#section4">News</a></li>
+      <li><a href="#section5">Contact Us</a></li>
     </ul>
     <div class="burger">
       <div class="line1"></div>
@@ -46,45 +51,145 @@
     </div>
   </nav>
   
-
-  <!--  -->
+  <div id="fullpage">
+    <div class="section" id="section1">
+      <!-- Content of section 1 -->
+      <!--  -->
   <section id="download">
     <div class="owl-carousel owl-theme">
-      <div class="item"><img src="img1.png" alt="Download page 1"></div>
-      <div class="item"><img src="img1.png" alt="Download page 2"></div>
-      <div class="item"><img src="img1.png" alt="Download page 3"></div>
+      <div class="item"><img src="img/img1.png" alt="Download page 1"></div>
+      <div class="item"><img src="img/img2.png" alt="Download page 2"></div>
+      <div class="item"><img src="img/img3.png" alt="Download page 3"></div>
     </div>
   </section>
-  
+    </div>
 
-<!--  -->
-<section id="features">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="intro">
-          <h2>Features</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+
+    <div class="section" id="section2">
+      <!-- Content of section 2 -->
+      <!--  -->
+  <section id="features">
+      <!--  -->
+      <div class="feature-container">
+        <div class="feature-list">
+          <h2>Our mission<br></h2>
+
+          <h4>helps socially phobic teens feel more comfortable and confident when socializing on social media. <br><br><br></h4>
+          <ul>
+            <li class="feature-item active" data-feature="feature1">AI-assistant</li>
+            <li class="feature-item" data-feature="feature2">Find by interest</li>
+            <li class="feature-item" data-feature="feature3">Cool “Like” interaction</li>
+            <li class="feature-item" data-feature="feature4">Avoid comment violence</li>
+            
+          </ul>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="gallery">
-          <div class="owl-carousel">
-            <div class="item"><img src="img1.png"></div>
-            <div class="item"><img src="img1.png"></div>
-            <div class="item"><img src="image3.jpg"></div>
-            <div class="item"><img src="image4.jpg"></div>
-            <div class="item"><img src="image5.jpg"></div>
+        <div class="feature-details">
+          <div class="feature-details-content active" id="feature1">
+            <img src="img/feature1.png" alt="Feature 1"  >
+            <p>Whether browsing other people's posts or searching for new connections, 
+              our AI chat assistant is always on hand to provide helpful information, 
+              conversation starters, reassurance, assistance, and motivation to enhance
+               the user experience and help users feel more comfortable and secure while using our app.</p>
+          </div>
+          <div class="feature-details-content" id="feature2">
+            <img src="img/feature2.png" alt="Feature 2">
+            <p>Feature 2 description goes here.</p>
+          </div>
+          <div class="feature-details-content" id="feature3">
+            <img src="img/feature3.png" alt="Feature 3">
+            <p>Feature 3 description goes here.</p>
+          </div>
+          <div class="feature-details-content" id="feature4">
+            <img src="img/feature4.png" alt="Feature 4">
+            <p>Feature 4 description goes here.</p>
           </div>
         </div>
       </div>
+  </section>
     </div>
+
+
+    <div class="section" id="section3">
+      <!-- Content of section 3 -->
+      <!--  -->
+      <section class="design-thinking">
+        <div class="design-thinking">
+          <div class="line">
+            <h2>Empathize</h2>
+            <img class= "DTimg" src="empathize.jpg" alt="Empathize image">
+            <p>By understanding the struggles and concerns of socially phobic teens on social media, we can create an app that provides a safe and comfortable space for them to connect with others.</p>
+          </div>
+          <div class="line">
+            <h2>Ideate</h2>
+            <img class= "DTimg" src="ideate.jpg" alt="Ideate image">
+            <p>Through identifying key pain points, such as difficulty in initiating conversations and fear of rejection, we can design features that address these challenges and promote positive social interactions.</p>
+          </div>
+          <div class="line">
+            <h2>Ideate</h2>
+            <img class= "DTimg" src="brainstorm.jpg" alt="Brainstorm image">
+            <p>Brainstorming and generating creative solutions, such as the use of AI-generated chat options and a cool "like" interaction, can lead to innovative features that help users feel more confident and secure.</p>
+          </div>
+          <div class="line">
+            <h2>Test</h2>
+            <img class= "DTimg" src="test.jpg" alt="Test image">
+            <p>Through rigorous testing and user feedback, we can continuously iterate and improve the app to create a positive and effective experience for socially phobic teens on social media.</p>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+
+
+    <div class="section" id="section4">
+      <!-- Content of section 4 -->
+      <section id="news">
+        <div class="container">
+          <h2>NEWS</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" target="_blank">
+                <img src="path-to-news-image" alt="News Title">
+                <h3>News Title</h3>
+                <p>News Introduction</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" target="_blank">
+                <img src="path-to-news-image" alt="News Title">
+                <h3>News Title</h3>
+                <p>News Introduction</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" target="_blank">
+                <img src="path-to-news-image" alt="News Title">
+                <h3>News Title</h3>
+                <p>News Introduction</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+
+    <div class="section" id="section5">
+      <!-- Content of section 5 -->
+      <section id="contact">
+        <div class="contact-upper">
+          <h2>Join Us</h2>
+          <p>Make bold decisions, form an elite team, and create high-quality products.</p>
+          <button>Contact Us</button>
+        </div>
+        <hr>
+        <div class="contact-lower">
+          <p>© 2023 Da Xu, UI/UX Designer | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Cookie Policy</a> | <a href="#">Cookie Settings</a></p>
+        </div>
+      </section>
   </div>
-</section>
 
   
-
-
+ 
   <script>
 
     /* Owl Carousel initialization */
@@ -98,33 +203,64 @@
   });
 });
 
-// 
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-  });
-});
-
-
-
 
   </script>
+
+
+<script>
+let featureItems = document.querySelectorAll('.feature-item');
+let featureDetails = document.querySelectorAll('.feature-details-content');
+
+for (let i = 0; i < featureItems.length; i++) {
+  featureItems[i].addEventListener('click', function() {
+    document.querySelector('.feature-item.active').classList.remove('active');
+    document.querySelector('.feature-details-content.active').classList.remove('active');
+    featureItems[i].classList.add('active');
+    featureDetails[i].classList.add('active');
+  });
+}
+
+</script>
+
+<script>
+new fullpage('#fullpage', {
+  autoScrolling: true,
+  scrollHorizontally: true,
+  scrollingSpeed: 700,
+  afterLoad: function(origin, destination, direction) {
+    if (destination.index == 1) {
+      document.body.style.backgroundColor = '#ffffff';
+    } else if (destination.index == 2) {
+      document.body.style.backgroundColor = '#000000';
+    } else if (destination.index == 3) {
+      document.body.style.backgroundColor = '#ffffff';
+    } else if (destination.index == 4) {
+      document.body.style.backgroundColor = '#FFFC14';
+    } else {
+      document.body.style.backgroundColor = '#ffffff';
+    }
+  },
+  onLeave: function(origin, destination, direction) {
+    if (destination.index == 1) {
+      document.body.style.backgroundColor = '#ffffff';
+    } else if (destination.index == 2) {
+      document.body.style.backgroundColor = '#000000';
+    } else if (destination.index == 3) {
+      document.body.style.backgroundColor = '#ffffff';
+    } else if (destination.index == 4) {
+      document.body.style.backgroundColor = '#FFFC14';
+    } else {
+      document.body.style.backgroundColor = '#ffffff';
+    }
+  },
+});
+
+</script>
+
+
+
+
+
 </body>
 
 </html>
