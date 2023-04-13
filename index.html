@@ -12,6 +12,7 @@
     <!-- Include jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+<!-- Carousel page from https://owlcarousel2.github.io/OwlCarousel2/ -->
     <!-- Include Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -19,15 +20,17 @@
     <!-- Include Owl Carousel JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+    
+    <!-- turn pages from https://alvarotrigo.com/fullPage/ -->
+    <link rel="stylesheet" type="text/css" href="fullpage.min.css" />
+    <script type="text/javascript" src="fullpage.min.js"></script>
+
     <!-- fullPage.js CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
 
     <!-- fullPage.js JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
 
-    <!-- 翻页 -->
-    <link rel="stylesheet" type="text/css" href="fullpage.min.css" />
-    <script type="text/javascript" src="fullpage.min.js"></script>
 
 
     <!-- https://fonts.google.com/ -->
@@ -36,7 +39,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&display=swap" rel="stylesheet">
     
 
-    <title>Document</title>
+    <title>ICIC</title>
 </head>
 
 
@@ -59,8 +62,8 @@
   
   <div id="fullpage">
     <div class="section" id="section1">
-      <!-- Content of section 1 -->
-      <!--  -->
+      <!-- Content of download -->
+   
   <section id="download">
     <div class="owl-carousel owl-theme">
       <div class="item"><img src="img/img1.png" alt="Download page 1"></div>
@@ -73,10 +76,10 @@
 
 
     <div class="section" id="section2">
-      <!-- Content of section 2 -->
-      <!--  -->
+      <!-- Content of features -->
+ 
   <section id="features">
-      <!--  -->
+
       <div class="feature-container">
         <div class="feature-list">
           <h2>Our mission<br></h2>
@@ -128,8 +131,7 @@
 
     <div class="section" id="section3">
       <h2>Design Thinking</h2>
-      <!-- Content of section 3 -->
-      <!-- design-thinking -->
+      <!-- Content of design-thinking -->
       <section class="design-thinking">
         
 
@@ -176,7 +178,7 @@
 
 
     <div class="section" id="section4">
-      <!-- Content of section 4 -->
+      <!-- Content of news -->
       <section id="news">
         <div class="container">
           <h2>NEWS</h2>
@@ -212,7 +214,7 @@
     </div>
 
     <div class="section" id="section5">
-      <!-- Content of section 5 -->
+      <!-- Content of contact us -->
       <section id="contact">
         <div class="contact-upper">
           <h2>Join Us</h2>
@@ -261,7 +263,10 @@ for (let i = 0; i < featureItems.length; i++) {
 
 </script>
 
+
+
 <script>
+// turn pages from https://alvarotrigo.com/fullPage/
 new fullpage('#fullpage', {
   autoScrolling: true,
   scrollHorizontally: true,
